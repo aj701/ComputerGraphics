@@ -1,0 +1,248 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>AJ's Computer Graphics Page</title>
+<link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+<style type=text/css>
+
+body{
+	background-color: white;
+	font-family: 'Cousine', 'courier', 'sans-serif';
+	font-size: 16px;
+}
+
+#top, #bottom, #left, #right {
+	background: #000000;
+	position: fixed;
+	}
+	
+#left, #right {
+	top: 0; bottom: 0;
+	width: 15px;
+		}
+	
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+	left: 0; right: 0;
+	height: 15px;
+}
+		
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+#bio{
+	font-size: 15px;
+	width: 550px;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 224px;
+	line-height: 22px;
+}
+
+#contact{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding-top: 100px;
+	height: 25px;
+	width: 75px;
+}
+
+#bio a:hover{
+    color: #9a63c2;
+	transition: .15s ease-in-out;
+	-moz-transition: .15s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+}
+
+#container{
+	margin: 0 auto 0 auto;
+	width: 1000px;
+	height: 500px;
+}
+
+#photo{
+	margin: 14% auto 0 auto;
+	background: url(images/photopolaroid2.png) no-repeat;
+	width: 900px;
+	height: 500px;
+	display: block;
+	}
+
+#pj {
+	position: absolute;
+	padding-left: 31px;
+	padding-top: 99px;
+	text-decoration: none;
+}
+
+div #pj a:hover{
+    color: #01aef0;
+	transition: .15s ease-in-out;
+	-moz-transition: .15s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+}
+
+#ig {
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 298px;
+	text-decoration: none;
+}
+
+div #ig a:hover{
+    color: #ed008c;
+	transition: .15s ease-in-out;
+	-moz-transition: .15s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+}
+
+#blog {
+	position: absolute;
+	padding-left: 881px;
+	padding-top: 47px;
+	text-decoration: none;
+}
+
+div #blog a:hover{
+    color: #fef200;
+	transition: .15s ease-in-out;
+	-moz-transition: .15s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+}
+
+#port {
+	position: absolute;
+	padding-left: 960px;
+	padding-top: 337px;
+	text-decoration: none;
+}
+
+div #port a:hover{
+    color: #6a6364;
+	transition: .15s ease-in-out;
+	-moz-transition: .15s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+}
+
+#footer{
+	font-size: 11px;
+	color: #bbbbbb !important; 
+	position: fixed;
+    bottom: 20px;
+	width: 100%
+	line-height: 15px;
+	padding-left: 367px;
+	text-align: center;
+	line-height: 15px;
+}
+
+div #footer a:hover{
+	color: black;
+	transition: .15s ease-in-out;
+	-moz-transition: .15s ease-in-out;
+	-webkit-transition: .15s ease-in-out;
+}
+
+a:-webkit-any-link{
+text-decoration:none !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*#line {
+	margin: -140px auto 0 auto;
+	border-bottom: 1px solid #000;
+	padding-right: 100px;
+	width: 180px;
+	height: 10px;
+	-webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0;
+	-webkit-transform: rotate(-15deg) skew(-7deg, 51deg);
+    -ms-transform: rotate(-15deg) skew(-7deg, 51deg);
+    transform: rotate(-15deg) skew(-7deg, 51deg);
+	}*/
+
+	@media screen and (max-width: 1000px) , screen and (max-height: 750px) {
+
+		#body{
+			font-size: 13px;
+		}
+
+		#bio{
+			font-size: 13px;
+			line-height: 18px;
+		}
+
+		#photo{
+			background: url(images/photopolaroid-small.png) no-repeat;
+			width: 500px;
+			height: 278px;
+		}
+
+		#pj {
+			padding-top: 40px;
+			padding-left: 195px;
+		}
+
+		#ig {
+			padding-top: 165px;
+			padding-left: 200px;
+		}
+
+		#blog {
+			padding-top: 16px;
+			padding-left: 710px; 
+		}
+
+		#port {
+			padding-top: 180px;
+			padding-left: 760px;
+		}
+
+
+	}
+
+</style>
+</head>
+
+<body>
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+<div id="body">
+	<div id="container">
+	<p>Assignment 1</p>
+		<a href="/Assignment1/v1.html">Version 1</a>
+		<a href="/Assignment1/v2.html">Version 2</a>
+
+	<p>Assignment 2</p>
+	<a href="/Assignment1/index.html">Check it out</a>
+
+	<p>Assignment 3</p>
+	<a href="/Assignment1/attempt1.html">Attempt 1</a>
+	<a href="/Assignment1/attempt2.html">Attempt 2</a>
+	<a href="/Assignment1/attempt2.html">Attempt 3</a>
+
+
+	<div id="bio">This is my page of homework for Computer Graphics.</div>
+
+	<div id="footer"><p>2015 Andrew J. LeVine. All Rights Reserved.</p></div>
+	</div>
+	
+</div>
+	
+	
+
+</body>
+</html>
